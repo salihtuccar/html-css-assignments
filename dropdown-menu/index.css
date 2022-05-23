@@ -1,0 +1,39 @@
+
+
+p{
+  height: 2.5rem;
+  width: 10rem;
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: grey;
+  font-family: monospace;
+  padding-top: 0.5rem;
+  color: white;
+}
+
+ul{
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid black;
+  width: 10rem;
+  background-color: beige;
+  padding-top: 0.3rem;
+  padding-bottom: 0.2rem;
+  display: none;
+  margin-top: -1.5rem;
+  position: absolute;
+
+}
+
+
+.tablo{
+  /* top: 100px; */
+  position: relative;
+  display: inline-block;
+  /* height: 2em; */
+
+}
+
+.tablo:hover ul{
+  display: block;
+}
